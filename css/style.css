@@ -1,0 +1,109 @@
+
+/*menu*/
+
+#menu ul li{
+	display: inline;
+	background-color: red;
+	margin: 0 5px;
+	float: right;
+}
+
+.top_img {
+	width: 2000px;
+	height: 100px;
+	background-color: ;
+}
+
+/*doodle*/
+
+.top_img {
+	margin: 200px auto 0 ;
+	width: 599px;
+	height: 228px;
+	background-color: green;
+}
+
+.doodle_img {
+	text-indent: -9999px;
+	background: url(../img/carsons.jpg);
+	width: 599px;
+	height: 228px;
+	position: absolute;
+}
+
+.triangle_img {
+
+	position: relative;
+	left: 565px;
+	top: 5;
+	background-color: rgba(255,255,255,0.5);
+	width: 24px;
+	height: 24px;
+	border-radius: 5px;
+
+}
+
+.triangle_img a:hover {
+	background-color: rgba(255,255,255,0.8);
+}
+
+/*search*/
+
+.search_form {
+	width: 236px;
+	margin: auto;
+}
+
+.search_buttons {
+	width: 350px;
+	margin: auto;
+}
+
+.search_buttons ul li {
+	margin: 10px auto;
+	display: inline;
+	border: 1px solid black;
+}
+
+.button_ser{
+	text-decoration: none;
+	}
+
+footer {
+	margin: 200px auto 0;
+	height: 50px;
+	background: none repeat scroll 0 0 #F2F2F2;
+	border-top: 1px solid #E4E4E4;
+}
+
+.left_foot li {
+	display: inline;
+	float: left;
+	margin: 0 10px;
+	font-family: arial,sans-serif;
+	font-size: small;
+}
+
+.right_foot li {
+	display: inline;
+	float: right;
+	margin: 0 10px;
+	font-family: arial,sans-serif;
+	font-size: small;
+	
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #666666;
+}
+
+footer ul li a:hover {
+ text-decoration: underline;
+}
+
+/*misc*/
+
+.clear_c {
+	clear: both;
+}
